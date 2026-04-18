@@ -1,24 +1,39 @@
-# Online Retail ML Assignment
+# Customer Behaviour Analysis using Machine Learning
 
-This repository contains the full pipeline for an MSc-level machine learning project using the UCI Online Retail dataset (2010–2011).
+This project analyses customer purchasing behaviour using unsupervised machine learning techniques to identify patterns and detect unusual transactions.
 
-## Project Objectives
-- Create customer segments using unsupervised clustering (K-Means, Hierarchical, GMM)
-- Detect unusual purchasing patterns using Isolation Forest
-- Validate segments using Random Forest classification
-- Generate actionable retail insights for business strategy
+## Objective
+The aim of this project is to analyse retail transaction data to identify customer segments and detect anomalous purchasing behaviour.
+
+## Dataset
+Online Retail Dataset containing transactional purchasing records.
+
+## Techniques Used
+- Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature Engineering  
+- Clustering (Customer Segmentation)  
+- Anomaly Detection  
+
+## Tools & Technologies
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+
+## Key Findings
+- Identified distinct customer segments based on purchasing behaviour  
+- Detected unusual transactions using anomaly detection techniques  
+- Generated insights that can support targeted marketing and business decisions  
 
 ## Repository Structure
-- `data/` -> Original dataset  
-- `code/` -> All ML scripts including full_pipeline.py  
-- `outputs/` -> Generated plots & CSVs  
-- `appendix/` -> Code appendix files for assignment  
+- `data/` – dataset files  
+- `code/` – machine learning scripts  
+- `outputs/` – generated plots and results  
+- `appendix/` – supporting code files  
 
-##  Academic Requirement Note
-This repository supports the MSc coursework submission for Coventry University.  
-GitHub link is included in the abstract as required.
-
-##  Installation
+## How to Run
 
 Clone the repository:
 
@@ -26,4 +41,3 @@ Clone the repository:
 git clone https://github.com/tishtha30/Online-Retail-ML-Assignment.git
 pip install -r requirements.txt
 python code/Online_Retail_ML.py
-
